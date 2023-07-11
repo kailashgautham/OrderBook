@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "OrderBookCode",
+					"jsonFile" : "directory-OrderBookCode-Debug-cba96ed1aea0a160d972.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "OrderBookCode",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "OrderBookTests",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-OrderBookTests-Debug-0901eb586494cb0fe056.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "OrderBookTests"
+				},
+				{
+					"build" : "OrderBookTests/tests",
+					"jsonFile" : "directory-OrderBookTests.tests-Debug-5649845340bb20375070.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "OrderBookTests/tests",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "OrderBookTests/lib/googletest",
+					"jsonFile" : "directory-OrderBookTests.lib.googletest-Debug-a59d06b1b48d95a343fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "OrderBookTests/lib/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OrderBook",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OrderBookCode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "OrderBookTests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OrderBook::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OrderBook-Debug-23b2d5a9ad9e27026371.json",
+					"name" : "OrderBook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OrderBookCode::@0fb4c69b1004ea137b6e",
+					"jsonFile" : "target-OrderBookCode-Debug-58e35ce040369a70ae21.json",
+					"name" : "OrderBookCode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "RunTests::@e0a6cfdc1d116671294b",
+					"jsonFile" : "target-RunTests-Debug-9a669c40c28f606fec9a.json",
+					"name" : "RunTests",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@c5967c1418284693a866",
+					"jsonFile" : "target-gtest-Debug-4e5440deded4662b6640.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@c5967c1418284693a866",
+					"jsonFile" : "target-gtest_main-Debug-6431d3249173bfc2fed7.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/kailashgautham/GitHub/OrderBook/cmake-build-debug",
+		"source" : "/Users/kailashgautham/GitHub/OrderBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
