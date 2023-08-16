@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kailashgautham/GitHub/OrderBook/OrderBookTests
+# Install script for directory: /Users/kailashgautham/Documents/GitHub/OrderBook/OrderBookTests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kailashgautham/GitHub/OrderBook/cmake-build-debug/OrderBookTests/tests/cmake_install.cmake")
+  include("/Users/kailashgautham/Documents/GitHub/OrderBook/cmake-build-debug/OrderBookTests/tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kailashgautham/GitHub/OrderBook/cmake-build-debug/OrderBookTests/lib/googletest/cmake_install.cmake")
+  include("/Users/kailashgautham/Documents/GitHub/OrderBook/cmake-build-debug/OrderBookTests/lib/googletest/cmake_install.cmake")
 endif()
 

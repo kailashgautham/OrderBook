@@ -2,7 +2,7 @@ project(OrderBookCode)
 
 set(CMAKE_CXX_STANDARD 20)
 set(HEADER_FILES OrderBook.h)
-set(SOURCE_FILES OrderBook.cpp)
+set(SOURCE_FILES OrderBook.cpp websocket.cpp)
 
 add_library(OrderBookCode STATIC ${SOURCE_FILES} ${HEADER_FILES})
 

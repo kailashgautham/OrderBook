@@ -1,5 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -DBOOST_ROOT=/Applications/include/boost -G Ninja -S /Users/kailashgautham/GitHub/OrderBook -B /Users/kailashgautham/GitHub/OrderBook/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/kailashgautham/Documents/GitHub/OrderBook -B /Users/kailashgautham/Documents/GitHub/OrderBook/cmake-build-debug
 -- start running cmake...
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/kailashgautham/GitHub/OrderBook/cmake-build-debug
+-- Build files have been written to: /Users/kailashgautham/Documents/GitHub/OrderBook/cmake-build-debug

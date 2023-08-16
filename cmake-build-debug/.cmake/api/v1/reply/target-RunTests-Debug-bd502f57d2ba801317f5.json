@@ -154,17 +154,17 @@
 			[
 				{
 					"backtrace" : 14,
-					"path" : "/Users/kailashgautham/GitHub/OrderBook/OrderBookCode"
+					"path" : "/Users/kailashgautham/Documents/GitHub/OrderBook/OrderBookCode"
 				},
 				{
 					"backtrace" : 15,
 					"isSystem" : true,
-					"path" : "/Users/kailashgautham/GitHub/OrderBook/OrderBookTests/lib/googletest/include"
+					"path" : "/Users/kailashgautham/Documents/GitHub/OrderBook/OrderBookTests/lib/googletest/include"
 				},
 				{
 					"backtrace" : 15,
 					"isSystem" : true,
-					"path" : "/Users/kailashgautham/GitHub/OrderBook/OrderBookTests/lib/googletest"
+					"path" : "/Users/kailashgautham/Documents/GitHub/OrderBook/OrderBookTests/lib/googletest"
 				},
 				{
 					"backtrace" : 2,
@@ -217,17 +217,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "OrderBookCode/libOrderBookCode.a",
+				"fragment" : "../../OrderBookCode/libOrderBookCode.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "../../lib/libgtest.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest_main.a",
+				"fragment" : "../../lib/libgtest_main.a",
 				"role" : "libraries"
 			},
 			{
@@ -247,7 +247,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "../../lib/libgtest.a",
 				"role" : "libraries"
 			}
 		],

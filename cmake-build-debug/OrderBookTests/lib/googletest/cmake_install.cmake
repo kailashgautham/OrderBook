@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kailashgautham/GitHub/OrderBook/OrderBookTests/lib/googletest
+# Install script for directory: /Users/kailashgautham/Documents/GitHub/OrderBook/OrderBookTests/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

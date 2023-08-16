@@ -97,7 +97,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/kailashgautham/GitHub/OrderBook/OrderBookCode"
+					"path" : "/Users/kailashgautham/Documents/GitHub/OrderBook/OrderBookCode"
 				},
 				{
 					"backtrace" : 5,
@@ -116,7 +116,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -134,14 +135,15 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				2
 			]
 		}
 	],
@@ -151,6 +153,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "OrderBookCode/OrderBook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "OrderBookCode/websocket.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
